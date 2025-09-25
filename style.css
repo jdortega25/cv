@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: url(gi.gif);
+    background: url(fondo.jpg);
     display: flex;
     justify-content: center;
     }
@@ -15,11 +15,11 @@ body {
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
   
-    /* Columna izquierda */
+    
     .left {
-    background: #f4c542;
+    background:goldenrod;
     padding: 20px;
-    color: white;
+    color: black;
     }
   
     
@@ -45,7 +45,7 @@ body {
     .section-title {
     font-weight: bold;
     margin: 20px 0 10px;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid black;
     padding-bottom: 5px;
     }
   
@@ -59,11 +59,7 @@ body {
     margin-bottom: 8px;
     }
 
-    .contact a {
-    color: white;
-    text-decoration: none;
-    }
-    /* Columna derecha */
+
     .right {
     padding-left: 30px;
     padding: 20px;
@@ -72,7 +68,7 @@ body {
     
   
     .right h2 {
-    color: #f4c542;
+    color:rgba(202, 172, 1, 0.932);
     margin-top: 2;
      border-bottom: 2px solid rgb(223, 185, 63)
     }
@@ -91,84 +87,7 @@ body {
     .edu {
     margin-top: 30px;
     }
-  
-    /* Formulario */
-    .formulario {
-    margin-top: 30px;
-    padding: 15px;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    background: #f9f9f9;
-    }
-
-    .formulario label { 
-    display: block;
-    margin-top: 10px;
-    font-weight: bold;
-    }
-  
-    .formulario input, .formulario textarea {
-    width: 100%;
-    padding: 8px;
-    margin-top: 5px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    }
-    .formulario button {
-    margin-top: 15px;
-    padding: 10px 15px;
-    border: none;
-    background: #f4c542;
-    color: white;
-    font-weight: bold;
-    cursor: pointer;
-    border-radius: 5px;
-    }
-  
-    
-  
-    .formulario button:hover {
-    background: #d9a830;
-    }
-    /* Barra de navegación */
-    /* Barra de navegación */
-
-    .navbar {  
-    width: 100%;
-    background-color: #f4c542;
-    padding: 15px 0;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1000;
-    }
-    .navbar ul {
-    list-style: none;  
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center; /* Centra horizontal */
-    align-items: center; /* Centra vertical */
-    gap: 50px;    /* Espacio entre enlaces */
-    }
-    .navbar ul li a {
-    display: flex;   /* Para alinear icono y texto */
-    align-items: center; /* Centrado vertical */
-    gap: 8px;    /* Espacio entre icono y texto */
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    transition: all 0.3s ease;
-    }
-    .navbar ul li a:hover {
-    background-color: #d9a830;
-    color: black;
-    padding: 5px 10px;
-    border-radius: 5px;
-    }
-
-    /* Espacio para que el CV no quede debajo de la barra */  
+ 
     .cv-container {
-    margin-top: 80px;
+    margin-top: 40px;
     }
